@@ -1,6 +1,6 @@
 package yeshbrodemocom.example.yeshbrodemo;
 
-public class YeshbrodemoApplication {
+public class EvenOddByUsingWait {
     int num = 1;
     final int value = 10;
 
@@ -29,7 +29,7 @@ public class YeshbrodemoApplication {
     }
 
     public static void main(String[] args) {
-        YeshbrodemoApplication yesh = new YeshbrodemoApplication();
+        EvenOddByUsingWait yesh = new EvenOddByUsingWait();
         Thread even = new Thread(() -> {
             try {
                 yesh.evenNumber();

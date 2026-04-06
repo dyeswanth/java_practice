@@ -20,7 +20,7 @@ public class ProduserConsumer {
 
         Thread consumer  = new Thread(()->{
             for (int i = 0;i<=10;i++){
-                //String value  = null;
+                String value  = null;
                 try {
                     value = String.valueOf(quae.take());
                 } catch (InterruptedException e) {
